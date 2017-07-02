@@ -13,7 +13,7 @@ body {
 	}
 }
 
-/* FIRST PANEL - Main Image & Navigation */ 
+/* First Panel - Main Image & Navigation */ 
 .header-container {
 	background: url(images/fog.jpg) center no-repeat;
 	background-size: cover;
@@ -97,7 +97,7 @@ body {
 	}
 }
 
-/* HIDDEN PANEL - For Mobile Display ONLY!!! */
+/* Hidden Panel - For Mobile Display ONLY!!! */
 .hidden-panel {
 	background-color: #bca64d;
 	color: #fff;
@@ -115,7 +115,7 @@ body {
 	}
 }
 
-/* SECOND PANEL - White Panel */
+/* Second PANEL - White Panel */
 .white-panel {
     text-align: center;
 }
@@ -190,7 +190,7 @@ body {
 	}
 }
 
-/* THIRD PANEL - Full Image Panel */
+/* Third PANEL - Full Image Panel */
 .third-panel-image {
 	background: url(images/pine-jewelry-beads.jpg) center no-repeat;
 	height: 300px;
@@ -202,7 +202,7 @@ body {
 	}
 }
 
-/* FOURTH PANEL ORIGINAL - Inverted Images Panel */
+/* Fourth Panel - Inverted Images Panel */
 .inverted-panel {
 	text-align: center;
 	margin-bottom: 35px;
@@ -309,7 +309,7 @@ body {
 	}
 }
 
-/* FIFTH PANEL - Gallery Panel */
+/* Fifth Panel - Gallery Panel */
 .gallery-panel {
 	background-color: #103341;
 	text-align: center;
@@ -363,7 +363,7 @@ body {
 	}
 }
 
-/* SIXTH PANEL - Promo Panel */
+/* Sixth Panel - Promo Panel */
 .promo-panel {
 	text-align: center;
 }
@@ -461,7 +461,7 @@ body {
 	}
 }
 
-/* SEVENTH PANEL - CTA Panel */
+/* Seventh Panel - CTA Panel */
 .cta-panel {
 	margin-top: 55px;
 	margin-bottom: 100px;
@@ -517,7 +517,7 @@ body {
 	}
 }
 
-/* EIGHT PANEL - Footer */
+/* Eighth Panel - Footer */
 .footer-menu {
 	font-size: 12px;
 	font-weight: 300;
