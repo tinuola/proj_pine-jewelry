@@ -2,18 +2,18 @@ body {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 }
+@media (min-width: 992px) {
+	body {
+		background-color: #f9f9f9;
+	}
+}
 @media (min-width: 768px) {
 	body {
 		background-color: #fff;
 	}
 }
-@media (min-width: 992px) {
-	body {
-		background-color: #ededed;
-	}
-}
 
-/* First Panel - Main Image & Navigation */ 
+/* First Panel - Main Image & Navigation */
 .header-container {
 	background: url(images/fog.jpg) center no-repeat;
 	background-size: cover;
@@ -22,8 +22,8 @@ body {
 	height: 580px;
 }
 .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #bca64d;
@@ -34,14 +34,13 @@ body {
 }
 .navbar-default .navbar-collapse {
 	background-color: #ededed;
-	margin-top: 48px;
-	margin-bottom: -48px;
+	margin: 48px 0px -48px 0px;
 }
 #pine-logo {
 	top: 10px;
 	position: absolute;
 	transform: translateX(-50%);
-    left: 50%;
+  left: 50%;
 }
 #header-title {
 	margin-top: 90px;
@@ -59,6 +58,15 @@ body {
 	font-size: 18px;
 	font-weight: 400;
 }
+@media (min-width: 992px) {
+	#header-title {
+	font-size: 65px;
+	}
+	#header-subtitle {
+	font-size: 22px;
+	font-weight: 600;
+	}
+}
 @media (min-width: 768px) {
 	.navbar-default .navbar-collapse {
 		background-color: transparent;
@@ -72,8 +80,8 @@ body {
 		text-transform: uppercase;
 	}
 	.navbar-nav > li > a {
-    	padding-top: 5px;
-    	padding-bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 4px;
 	}
 	#pine-logo {
 		top: 10px;
@@ -87,17 +95,9 @@ body {
 		padding: 0px 25px 0px 25px;
 	}
 }
-@media (min-width: 992px) {
-	#header-title {
-	font-size: 65px;
-	}
-	#header-subtitle {
-	font-size: 22px;
-	font-weight: 600;
-	}
-}
 
-/* Hidden Panel - For Mobile Display ONLY!!! */
+
+/* Hidden Panel - For Mobile Display ONLY */
 .hidden-panel {
 	background-color: #bca64d;
 	color: #fff;
@@ -117,7 +117,7 @@ body {
 
 /* Second PANEL - White Panel */
 .white-panel {
-    text-align: center;
+  text-align: center;
 }
 .white-panel-image-col {
 	padding: 0px;
@@ -144,8 +144,8 @@ body {
 .white-panel-icons {
 	color: #b0b0b0;
 	display: flex;
-    justify-content: space-around;
-    margin-left: 0px
+  justify-content: space-around;
+  margin-left: 0px
 }
 @media (min-width: 768px) {
 	.white-panel-image-col {
@@ -167,17 +167,14 @@ body {
 	}
 	.white-panel-copy-col {
 		margin-top: 13px;
-	    padding-left: 125px;
-	    padding-right: 50px;
-	    padding-top: 91px;
-	    padding-bottom: 10px;
+		padding: 91px 50px 10px 125px;
 	}
 	.white-panel-image-col {
 		margin-top:25px;
 	}
 	.key-necklace {
 		position: absolute;
-    	clip: rect(14px,367px,414px,0px);
+    clip: rect(14px,367px,414px,0px);
 	}
 }
 @media (min-width: 1200px) {
@@ -234,17 +231,13 @@ body {
 }
 @media (min-width: 768px) {
 	.inverted-panel {
-	text-align: left;
-	height: 700px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 60px;
-    margin-bottom: -25px;
-    margin-right: 0px;
-    margin-left: 0px;
+		text-align: left;
+		height: 700px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 0 40px;
+		margin: 60px 0px -25px 0px;
 	}
 	.inverted-image-one, .inverted-image-two {
 		display: none;
@@ -279,33 +272,33 @@ body {
 }
 @media (min-width: 992px) {
 	.inverted-copy-block-one {
-    	width: 338px;
-  		margin-left: 75px;
-   		padding-left: 40px;
+    width: 338px;
+  	margin-left: 75px;
+   	padding-left: 40px;
 	}
 	.strap-bracelet {
 		display: inline-block;
 	}
 	.h2-inverted-panel-style {
 		display: inline-block;
-    	float: right;
-    	max-width: 338px;  
+    float: right;
+    max-width: 338px;
 	}
 	.inverted-copy-block-two {
-    	width: 338px;
-    	padding-right: 35px;
+    width: 338px;
+    padding-right: 35px;
 	}
 	.inverted-image-one-hidden {
 		text-align: right;
 	}
 	.inverted-image-two-hidden {
-	    margin-left: -10px;
+	  margin-left: -10px;
 	}
 }
 @media (min-width: 1200px) {
 	.inverted-copy-block-one {
-	    padding-left: 66px;
-	    margin-left: 150px;
+	  padding-left: 66px;
+	  margin-left: 150px;
 	}
 }
 
@@ -317,7 +310,7 @@ body {
 .gallery-copy-container {
 	padding: 10px 20px 6px 20px;
 	margin-top: 5px;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .h2-gallery-style {
 	font-size: 20px;
@@ -345,7 +338,7 @@ body {
 		padding: 10px 100px;
 	}
 	.gallery-images-container {
-		 padding: 0px 70px;
+		padding: 0px 70px;
 	}
 }
 @media (min-width: 992px) {
@@ -358,8 +351,7 @@ body {
 		padding: 0px 110px;
 	}
 	.gallery-image {
-		padding-left: 3px;
-		padding-right: 3px;
+		padding: 0 3px;
 	}
 }
 
@@ -379,8 +371,7 @@ body {
 	color: #999;
 	margin-top: 350px;
 	line-height: 24px;
-	padding-left: 50px;
-    padding-right: 50px;
+	padding: 0 50px;
 }
 #coupon-code {
 	font-size: 22px;
@@ -391,7 +382,7 @@ body {
 	display: none;
 }
 #check-us-out-button-label {
-	padding: 10px 0 10px 0px;
+	padding: 10px 0;
 	background-color: #bca64d;
 }
 #check-us-out-button {
@@ -400,7 +391,7 @@ body {
 	font-weight: 600;
 	color: #fff;
 	width: 100%;
-    display: block;
+  display: block;
 }
 #check-us-out2 {
 	font-size: 11px;
@@ -447,17 +438,16 @@ body {
 		display: block;
 		margin-left: 50px;
 		margin-top: 50px;
-	    color: #666;
-	    font-weight: 300;
+	  color: #666;
+	  font-weight: 300;
 	}
 	#check-us-out2 {
 		display: none;
 	}
 	#check-us-out-button-label {
 		display: inline-block;
-   		margin-left: 50px;
-   		padding-left: 25px;
-    	padding-right: 25px;
+   	margin-left: 50px;
+		padding: 10px 25px;
 	}
 }
 
@@ -477,7 +467,7 @@ body {
 	text-align: center;
 	margin-bottom: 5px;
 	width: 100%;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px;
 }
 #email-button {
 	border: 0px;
@@ -486,8 +476,8 @@ body {
 	font-weight: 600;
 	background-color: #999;
 	text-transform: uppercase;
-    width: 100%;
-    padding: 10px 0px 10px 0px;
+  width: 100%;
+  padding: 10px 0px;
 }
 @media (min-width: 768px) {
 	#email-box, #email-button {
@@ -498,13 +488,13 @@ body {
 @media (min-width: 992px) {
 	.cta-panel {
 		text-align: center;
-	    margin-bottom: 60px;
+	  margin-bottom: 60px;
 	}
 	#mailing-list {
 		display: block;
 		color: #666;
-    	font-weight: 300;
-    	padding-bottom: 10px;
+    font-weight: 300;
+    padding-bottom: 10px;
 	}
 	#email-box {
 		margin: 0px;
@@ -532,7 +522,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	margin-right: 30px;
-	padding: 24px 0px;	
+	padding: 24px 0px;
 }
 @media (min-width: 768px) {
 	.social-icons {
@@ -542,8 +532,8 @@ body {
 @media (min-width: 992px) {
 	.footer-menu {
 		display: flex;
-    	justify-content: center;
-    	line-height: 10px;
+    justify-content: center;
+    line-height: 10px;
 	}
 	#copyright {
 		border-right: 1px solid #999;
@@ -551,8 +541,7 @@ body {
 	}
 	#contact-us, #faqs, #about-pine {
 		border-right: 1px solid #999;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding: 0 10px;
 	}
 	#terms {
 		padding-left: 10px;

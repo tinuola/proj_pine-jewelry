@@ -1,7 +1,7 @@
 # Pine Jewelry
 ### A PSD-to-HTML Project
 
-Turn a .psd mockup of an online jewelry store into a fully functional and responsive one-page website for mobile, tablet and desktop viewing.
+Turn a .psd mockup of an online jewelry store into a responsive one-page website for mobile, tablet and desktop viewing.
 <br>
 
 
@@ -10,6 +10,6 @@ Turn a .psd mockup of an online jewelry store into a fully functional and respon
 * CSS3
 * Bootstrap
 * Flexbox
-* Pixelmator
+* Pixelmator/Photoshop
 
 [Website Demo](https://tinuola.github.io/pine-jewelry/)
