@@ -1,199 +1,374 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Pine Jewelry - PSD Slicing Project (Tinuola Awopetu)</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+  <head>
+    <title>Pine Jewelry - PSD Slicing Project</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!--First Panel - Main Image & Navigation-->
+      <header class="row">
+        <div class="header-container col-xs-12 col-sm-12 col-md-12">
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <img
+                  src="images/pine-jewelry-logo.png"
+                  width="84px"
+                  alt="pine jewelry logo"
+                  class="img-responsive"
+                  id="pine-logo"
+                />
+              </div>
+              <div
+                class="collapse navbar-collapse"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li id="shop-etsy-menu"><a href="#">Shop Etsy</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1 id="header-title">Pine Jewelry</h1>
+          <p id="header-subtitle">
+            Hand crafted jewelry made with<br />love in Flagstaff, Arizona
+          </p>
+          <p>
+            <i
+              class="fa fa-play-circle fa-5x"
+              aria-hidden="true"
+            ></i>
+          </p>
+          <p id="play-video">Play Video</p>
+        </div>
+      </header>
+      <!--Hidden Panel - For Mobile Display ONLY-->
+      <div class="row hidden-panel">
+        <h2 id="shop-on-etsy-panel">Shop on Etsy</h2>
+      </div>
 
-<div class="container">
+      <!--Second Panel - White Panel-->
+      <div class="row white-panel">
+        <div class="white-panel-image-col col-xs-12 col-sm-6 col-md-5">
+          <img
+            src="images/pine-jewelry-key-necklace.jpg"
+            width="750px"
+            alt="pine jewelry key necklace"
+            class="img-responsive key-necklace"
+          />
+        </div>
+        <div class="white-panel-copy-col col-xs-12 col-sm-6 col-md-7">
+          <h2 class="h2-white-panel-style">
+            Every piece is unique<br />
+            tieing in old and new
+          </h2>
+          <p class="p-white-panel-style">
+            Every Pine Jewelry piece is created with great attention to detail
+            using a combination of both new items, antiques, and recycled
+            materials. This means every piece is unique.
+          </p>
+          <!--Icons-->
+          <ul class="fa-ul white-panel-icons">
+            <li>
+              <i
+                class="fa fa-snowflake-o fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-star fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-bicycle fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-binoculars fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-leaf fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-tree fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-key fa-2x"
+                aria-hidden="true"
+              ></i>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<!--First Panel - Main Image & Navigation-->
-	<header class="row">
-		<div class="header-container col-xs-12 col-sm-12 col-md-12">
-			<nav class="navbar navbar-default">
-  				<div class="container-fluid">
-   					<div class="navbar-header">
-	     				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-	      				</button>
-	      				<img src="images/pine-jewelry-logo.png" width="84px" alt="pine jewelry logo" class="img-responsive" id="pine-logo">
-    				</div>
-    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      					<ul class="nav navbar-nav navbar-right">
-        					<li><a href="#">About</a></li>
-        					<li><a href="#">Contact</a></li>
-        					<li id="shop-etsy-menu"><a href="#">Shop Etsy</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-			<h1 id="header-title">Pine Jewelry</h1>
-			<p id="header-subtitle">Hand crafted jewelry made with<br>love in Flagstaff, Arizona</p>
-			<p><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></p>
-			<p id="play-video">Play Video</p>
-		</div>
-	</header>
-<!--Hidden Panel - For Mobile Display ONLY-->
-	<div class="row hidden-panel">
-		<h2 id="shop-on-etsy-panel">Shop on Etsy</h2>
-	</div>
+      <!--Third Panel - Full Image Panel-->
+      <div class="row third-panel-image"></div>
 
-<!--Second Panel - White Panel-->
-	<div class="row white-panel">
-		<div class="white-panel-image-col col-xs-12 col-sm-6 col-md-5">
-			<img src="images/pine-jewelry-key-necklace.jpg" width="750px" alt="pine jewelry key necklace" class="img-responsive key-necklace">
-		</div>
-		<div class="white-panel-copy-col col-xs-12 col-sm-6 col-md-7">
-			<h2 class="h2-white-panel-style">Every piece is unique<br> tieing in old and new</h2>
-			<p class="p-white-panel-style">Every Pine Jewelry piece is created with great attention to detail using a combination of both new items, antiques, and recycled materials. This means every piece is unique.</p>
-			<!--Icons-->
-			<ul class="fa-ul white-panel-icons">
-				<li><i class="fa fa-snowflake-o fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-star fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-bicycle fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-binoculars fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-leaf fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-tree fa-2x" aria-hidden="true"></i></li>
-				<li><i class="fa fa-key fa-2x" aria-hidden="true"></i></li>
-			</ul>
-		</div>
-	</div>
+      <!--Fourth Panel - Inverted Images Panel-->
+      <div class="row inverted-panel">
+        <div class="inverted-copy-block-one col-xs-12 col-sm-6 col-md-6">
+          <h2 class="h2-inv-panel-style">
+            We have been hand crafting jewelry since 1993
+          </h2>
+          <p class="p-inv-panel-style">
+            Our location in historic Flagstaff leaves us with access to some of
+            the best natural materials and antiques in the country. We maintain
+            sustainable practices and always think about the environment first.
+          </p>
+        </div>
 
-<!--Third Panel - Full Image Panel-->
-	<div class="row third-panel-image">
-	</div>
+        <div class="inverted-image-one col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="images/pine-jewelry-strap-bracelet_lg.jpg"
+            width="968px"
+            alt="pine jewelry leather strap bracelet"
+            class="img-responsive strap-bracelet"
+          />
+        </div>
 
-<!--Fourth Panel - Inverted Images Panel-->
-	<div class="row inverted-panel">
+        <div class="inverted-image-one-hidden col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="images/pine-jewelry-strap-bracelet_sm.jpg"
+            width="338px"
+            alt="pine jewelry leather strap bracelet"
+            class="img-responsive strap-bracelet"
+          />
+        </div>
 
-			<div class="inverted-copy-block-one col-xs-12 col-sm-6 col-md-6">
-				<h2 class="h2-inv-panel-style">We have been hand crafting jewelry since 1993</h2>
-				<p class="p-inv-panel-style">Our location in historic Flagstaff leaves us with access to some of the best natural materials and antiques in the country. We maintain sustainable practices and always think about the environment first.</p>
-			</div>
+        <div class="inverted-copy-block-two col-xs-12 col-sm-6 col-md-6">
+          <h2 class="h2-inv-panel-style">
+            Custom pieces are available upon request
+          </h2>
+          <p class="p-inv-panel-style">
+            If you're looking for a custom item or having an heirloom used to
+            create a new piece, we will work with you to make sure your vision
+            becomes a reality.
+          </p>
+        </div>
 
-			<div class="inverted-image-one col-xs-12 col-sm-6 col-md-6">
-				<img src="images/pine-jewelry-strap-bracelet_lg.jpg" width="968px" alt="pine jewelry leather strap bracelet" class="img-responsive strap-bracelet">
-			</div>
+        <div class="inverted-image-two col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="images/pine-jewelry-pendant-necklace_lg.jpg"
+            width="448px"
+            alt="pine jewelry pendant necklace"
+            class="img-responsive pendant-necklace"
+          />
+        </div>
 
-			<div class="inverted-image-one-hidden col-xs-12 col-sm-6 col-md-6">
-				<img src="images/pine-jewelry-strap-bracelet_sm.jpg" width="338px"  alt="pine jewelry leather strap bracelet" class="img-responsive strap-bracelet">
-			</div>
+        <div class="inverted-image-two-hidden col-xs-12 col-sm-6 col-md-6">
+          <img
+            src="images/pine-jewelry-pendant-necklace_sm.jpg"
+            width="338px"
+            alt="pine jewelry pendant necklace"
+            class="img-responsive pendant-necklace"
+          />
+        </div>
+      </div>
 
-			<div class="inverted-copy-block-two col-xs-12 col-sm-6 col-md-6">
-				<h2 class="h2-inv-panel-style">Custom pieces are available upon request</h2>
-				<p class="p-inv-panel-style">If you're looking for a custom item or having an heirloom used to create a new piece, we will work with you to make sure your vision becomes a reality.</p>
-			</div>
+      <!--Fifth Panel - Gallery Panel-->
+      <div class="row gallery-panel">
+        <div class="gallery-copy-container col-xs-12 col-sm-12 col-md-12">
+          <h2 class="h2-gallery-style">
+            Our inspiration comes both from nature, and being in the historic
+            Wild West.
+          </h2>
+        </div>
+        <div class="gallery-images-container col-xs-12 col-sm-12 col-md-12">
+          <!--Image 1-->
+          <div class="gallery-image col-xs-6 col-sm-6 col-md-3">
+            <img
+              src="images/pine-jewelry-drop-necklace.jpg"
+              width="300px"
+              alt="pine jewelry drop necklace"
+              class="img-responsive"
+            />
+            <h3 class="h3-gallery-style">Necklaces</h3>
+            <p class="p-gallery-style">
+              Long or short<br />
+              natural or metal<br />
+              new or old
+            </p>
+          </div>
+          <!--Image 2-->
+          <div class="gallery-image col-xs-6 col-sm-6 col-md-3">
+            <img
+              src="images/pine-jewelry-bracelets.jpg"
+              width="300px"
+              alt="pine jewelry bracelets"
+              class="img-responsive"
+            />
+            <h3 class="h3-gallery-style">Bracelets</h3>
+            <p class="p-gallery-style">
+              Cuffs, leather,<br />
+              tied or spiked<br /><br />
+            </p>
+          </div>
+          <!--Image 3-->
+          <div class="gallery-image col-xs-6 col-sm-6 col-md-3">
+            <img
+              src="images/pine-jewelry-chunk-earrings.jpg"
+              width="300px"
+              alt="pine jewelry chunk earrings"
+              class="img-responsive"
+            />
+            <h3 class="h3-gallery-style">Earrings</h3>
+            <p class="p-gallery-style">
+              Sold in pairs<br />
+              and as singles
+            </p>
+          </div>
+          <!--Image 4-->
+          <div class="gallery-image col-xs-6 col-sm-6 col-md-3">
+            <img
+              src="images/pine-jewelry-stone-ring.jpg"
+              width="300px"
+              alt="pine jewelry stone ring"
+              class="img-responsive"
+            />
+            <h3 class="h3-gallery-style">Rings</h3>
+            <p class="p-gallery-style">
+              Specializing in<br />custom heirloom<br />
+              settings
+            </p>
+          </div>
+        </div>
+      </div>
 
-			<div class="inverted-image-two col-xs-12 col-sm-6 col-md-6">
-				<img src="images/pine-jewelry-pendant-necklace_lg.jpg" width="448px" alt="pine jewelry pendant necklace" class="img-responsive pendant-necklace">
-			</div>
+      <!--Sixth Panel - Promo Panel-->
+      <div class="row promo-panel">
+        <div class="promo-panel-image col-xs-12 col-sm-12 col-md-12">
+          <!--or just col-md-12-->
+          <h2 id="custom-order">Custom orders now up to 20% off</h2>
+          <h2 id="coupon-code">Coupon code: 20off</h2>
+          <h4 id="check-us-out1">Check out our Etsy Store</h4>
+          <div id="check-us-out-button-label">
+            <span id="check-us-out-button">Check Out Our Shop</span>
+          </div>
+          <p id="check-us-out2">Check out our Etsy Store</p>
+        </div>
+      </div>
 
-			<div class="inverted-image-two-hidden col-xs-12 col-sm-6 col-md-6">
-				<img src="images/pine-jewelry-pendant-necklace_sm.jpg" width="338px" alt="pine jewelry pendant necklace" class="img-responsive pendant-necklace">
-			</div>
+      <!--Seventh Panel - CTA Panel-->
+      <div class="row cta-panel">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <h4 id="mailing-list">Join our Mailing List</h4>
+          <form>
+            <input
+              type="email"
+              name="email"
+              placeholder="enter your email"
+              id="email-box"
+            />
+            <button id="email-button">Keep Updated</button>
+          </form>
+        </div>
+      </div>
 
-	</div>
+      <!--Eighth Panel - Footer-->
+      <footer class="row">
+        <div class="footer-panel">
+          <ul class="footer-menu">
+            <li id="copyright">Copyright 2017 &copy; Pine Jewelry</li>
+            <li id="contact-us">Contact Us</li>
+            <li id="faqs">FAQs</li>
+            <li id="about-pine">About Pine Jewelry</li>
+            <li id="terms">Terms of Service</li>
+          </ul>
+          <ul class="fa-ul social-icons">
+            <li>
+              <i
+                class="fa fa-facebook"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-instagram"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-pinterest"
+                aria-hidden="true"
+              ></i>
+            </li>
+            <li>
+              <i
+                class="fa fa-twitter"
+                aria-hidden="true"
+              ></i>
+            </li>
+          </ul>
+          <p class="byline">
+            Coded with 😊 by
+            <a
+              href="https://github.com/tinuola/proj_pine-jewelry"
+              target="_blank"
+              class=""
+              >TechTinu</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
 
-<!--Fifth Panel - Gallery Panel-->
-	<div class="row gallery-panel">
-		<div class="gallery-copy-container col-xs-12 col-sm-12 col-md-12">
-			<h2 class="h2-gallery-style">Our inspiration comes both from nature, and being in the historic Wild West.</h2>
-		</div>
-		<div class="gallery-images-container col-xs-12 col-sm-12 col-md-12">
-			<!--Image 1-->
-			<div class="gallery-image col-xs-6 col-sm-6 col-md-3">
-    			<img src="images/pine-jewelry-drop-necklace.jpg" width="300px" alt="pine jewelry drop necklace" class="img-responsive">
-        			<h3 class="h3-gallery-style">Necklaces</h3>
-        				<p class="p-gallery-style">Long or short<br>
-        				natural or metal<br>
-        				new or old
-        				</p>
-  			</div>
-  			<!--Image 2-->
-  			<div class="gallery-image col-xs-6 col-sm-6 col-md-3">
-    			<img src="images/pine-jewelry-bracelets.jpg" width="300px" alt="pine jewelry bracelets" class="img-responsive">
-        			<h3 class="h3-gallery-style">Bracelets</h3>
-        				<p class="p-gallery-style">Cuffs, leather,<br>
-        				tied or spiked<br><br>
-        				</p>
-			</div>
-  			<!--Image 3-->
-  			<div class="gallery-image col-xs-6 col-sm-6 col-md-3">
-				<img src="images/pine-jewelry-chunk-earrings.jpg" width="300px" alt="pine jewelry chunk earrings" class="img-responsive">
-        			<h3 class="h3-gallery-style">Earrings</h3>
-        				<p class="p-gallery-style">Sold in pairs<br>
-        				and as singles
-        				</p>
-  			</div>
-  			<!--Image 4-->
-  			<div class="gallery-image col-xs-6 col-sm-6 col-md-3">
- 				<img src="images/pine-jewelry-stone-ring.jpg" width="300px" alt="pine jewelry stone ring" class="img-responsive">
-	       			<h3 class="h3-gallery-style">Rings</h3>
-    					<p class="p-gallery-style">Specializing
-    					in<br>custom heirloom<br>
-    					settings
-    					</p>
-  			</div>
-		</div>
-	</div>
-
-<!--Sixth Panel - Promo Panel-->
-	<div class="row promo-panel">
-		<div class="promo-panel-image col-xs-12 col-sm-12 col-md-12"> <!--or just col-md-12-->
-			<h2 id="custom-order">Custom orders now up to 20% off</h2>
-  			<h2 id="coupon-code">Coupon code: 20off</h2>
-  			<h4 id="check-us-out1">Check out our Etsy Store</h4>
-  			<div id="check-us-out-button-label"><span id="check-us-out-button">Check Out Our Shop</span></div>
-  			<p id="check-us-out2">Check out our Etsy Store</p>
-		</div>
-	</div>
-
-<!--Seventh Panel - CTA Panel-->
-	<div class="row cta-panel">
-		<div class="col-xs-12 col-sm-12 col-md-12">
-			<h4 id="mailing-list">Join our Mailing List</h4>
-			<form>
-				<input type="email" name="email" placeholder="enter your email" id="email-box">
-				<button id="email-button">Keep Updated</button>
-			</form>
-		</div>
-	</div>
-
-<!--Eighth Panel - Footer-->
-	<footer class="row">
-		<div class="footer-panel">
-			<ul class="footer-menu">
-				<li id="copyright">Copyright 2017 &copy; Pine Jewelry</li>
-				<li id="contact-us">Contact Us</li>
-				<li id="faqs">FAQs</li>
-				<li id="about-pine">About Pine Jewelry</li>
-				<li id="terms">Terms of Service</li>
-			</ul>
-			<ul class="fa-ul social-icons">
-				<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-				<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-				<li><i class="fa fa-pinterest" aria-hidden="true"></i></li>
-				<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-			</ul>
-		</div>
-	</footer>
-</div>
-
-<!--JQuery CDN and Bootstrap JavaScript CDN-->
-<script
-  src="https://code.jquery.com/jquery-1.12.4.min.js"
-  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-  crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-</script>
-
-</body>
+    <!--JQuery CDN and Bootstrap JavaScript CDN-->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
+  </body>
 </html>
